@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 6.4.--><structure>
+	<type>turing</type>
+	<automaton>
+		<!--The list of states.-->
+		<block id="0" name="q0">
+			<tag>Machine0</tag>
+			<x>400.0</x>
+			<y>261.0</y>
+			<initial/>
+		</block>
+		<block id="1" name="q1">
+			<tag>Machine1</tag>
+			<x>590.0</x>
+			<y>171.0</y>
+		</block>
+		<block id="2" name="q2">
+			<tag>Machine2</tag>
+			<x>796.0</x>
+			<y>115.0</y>
+		</block>
+		<block id="3" name="q3">
+			<tag>Machine3</tag>
+			<x>790.0</x>
+			<y>259.0</y>
+		</block>
+		<block id="4" name="q4">
+			<tag>Machine4</tag>
+			<x>633.0</x>
+			<y>323.0</y>
+			<final/>
+		</block>
+		<!--The list of transitions.-->
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<read/>
+			<write/>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>0</read>
+			<write/>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>1</read>
+			<write>0</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>1</to>
+			<read>0</read>
+			<write>0</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>0</read>
+			<write>0</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>1</read>
+			<write>1</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>3</to>
+			<read>1</read>
+			<write>1</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>2</to>
+			<read>0</read>
+			<write>0</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read/>
+			<write/>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>1</to>
+			<read>1</read>
+			<write>0</write>
+			<move>R</move>
+		</transition>
+		<!--The list of automata-->
+		<Machine3/>
+		<Machine4/>
+		<Machine0/>
+		<Machine1/>
+		<Machine2/>
+	</automaton>
+</structure>

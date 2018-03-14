@@ -1,0 +1,6 @@
+mkdir albano
+cd albano
+criar albano.py 43
+mkdir nino
+cd nino
+criar nino.c 80

@@ -1,0 +1,38 @@
+<?php
+	include "conexao.inc";
+
+?>
+<!doctype html>
+<head>
+    <title>Lojão</title>
+    <link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+<div id="wrap">
+    <div id="top">
+    	<h1 style="text-align: center;margin: 2px; font-size: 20px; ">Lojão</h1>
+    	<a href="index.php" style="font-size:12px">VOLTAR</a>
+    </div>
+    <div id="conteudo">
+		<form name="produto" id="produto" method="get" action="fcriar.php">
+			<table id="tabela">
+				<tr>
+					<th>Produtos</th>
+					<th>Preço</th>
+				</tr>
+				<tr>
+					<th><input type="text" name="nome"/></th>
+					<th><input type="text" name="preco"/></th>
+				</tr>
+				
+			</table>
+			<p>
+			<input id="botao" type="submit" name="submit" value="Registrar Produto"  />
+			
+		</form>
+	</div>
+</div>
+
+</body>

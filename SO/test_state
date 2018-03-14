@@ -1,0 +1,19 @@
+mkdir FURG
+cd FURG
+mkdir LFTC
+mkdir REDES
+mkdir SO
+cd LFTC
+criar ex1.py 16
+criar 71450.zip 256
+cd ..
+cd REDES
+criar lista1.txt 32
+criar lista2.txt 63
+criar server.py 88
+criar client.py 90
+cd ..
+cd SO
+criar slide1.pdf 90
+cd ..
+cd ..
