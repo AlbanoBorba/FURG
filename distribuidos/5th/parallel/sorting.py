@@ -124,7 +124,7 @@ def main():
     timeParBubble = []
     ns = []
 
-    for i in xrange(10):
+    for i in xrange(8):
         ns.append(N)
         for i in xrange(M):
             group.append(randomArr(0, 10000, N))
