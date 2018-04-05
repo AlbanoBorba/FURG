@@ -137,7 +137,7 @@ int main(){
 
     high_resolution_clock::time_point begin;   // create timers.
     high_resolution_clock::time_point end;
-    for(int num_threads=1; num_threads<=16; num_threads*=2){
+    for(int num_threads=1; num_threads<=32; num_threads*=2){
         srand((unsigned)time(0)); 
 
         for(int j=0; j<groups; j++) 
