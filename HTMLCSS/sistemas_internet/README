@@ -1,3 +1,0 @@
-A instalação do xampp (variante do LAMP), foi feita através de uma série de comandos que eu organizei em um arquivo .sh para facilitar a instalação. Basicamente o que deve ser feito é no terminal, no path em que o .sh estiver localizado e digitar "./xampp.sh". Depois disso, é só esperar o servidor ser baixado e, quando o download acabar, clicar Next até a instalação ser finalizada. Após a instalação, digite y para aceitar a instalação do aplicativo gksu
-
-Os códigos utilizados para a criação do site são "basic_site.html" e "styles.css", todas tags utilizadas no HTML estão devidamente comentadas, os styles utilizados podem ser encontrados em: https://www.w3schools.com/w3css/4/w3.css
